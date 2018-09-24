@@ -90,12 +90,15 @@ h1, h2, h3, h4, h5 {
 
 .nav-items {
 	display: inline-block;
-	width: 60%;
+	width: 80%;
+	vertical-align: middle;
 }
 
 .logo {
 	display: inline-block;
-	width: 40%;
+	width: 20%;
+	text-align: right;
+	vertical-align: middle;
 }
 
 .button {
@@ -123,6 +126,10 @@ h1, h2, h3, h4, h5 {
 	padding-bottom: 35px;
 }
 
+.top-content {
+	padding-top: 35px;
+}
+
 h1 {
 	font-size: 65px;
 	padding-top: 75px;
@@ -130,4 +137,15 @@ h1 {
 
 p {
 	padding-bottom: 20px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: gray;
+	padding-right: 65px;
+	font-size: 14px;
+}
+
+header {
+	padding-bottom: 15px;
 }
